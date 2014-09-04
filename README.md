@@ -41,8 +41,9 @@ Prerequisites
 -------------
 - **Required:** Microsoft web developer (ASP.NET. HTML, CSS, some JavaScript)
   - It is assumed you have the above background / experience... if not you might be a bit lost
-- **Recommended (*but not required*):**
+- **Recommended** ( *but not required* ):
   - Experience with SharePoint development
+  - Microsoft Azure
   - ASP.NET MVC
-  - REST services
+  - Understanding / experience with REST services
   - Enterprise JavaScript techniques / patterns / practices

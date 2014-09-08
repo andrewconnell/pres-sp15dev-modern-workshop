@@ -1,9 +1,9 @@
 Modern Office 365, SharePoint & Cloud Development Ramp-Up
 =========================================================
-*Follow along at [github.com/andrewconnell/pres-modern-spdev-workshop](http://github.com/andrewconnell/pres-modern-spdev-workshop)! This is just but one part of multiple parts that makup this workshop... [click here for all the parts that makeup this workshop](presentation.md).*
+*Follow along at [github.com/andrewconnell/pres-modern-spdev-workshop](http://github.com/andrewconnell/pres-modern-spdev-workshop). This is just but one part of multiple parts that make up this workshop... [click here for all the parts that makeup this workshop](presentation.md).*
 
 Part 1: Understanding SharePoint
-========================
+================================
 Terms you should be aware of...
 - Farm
 - Web Application
@@ -204,7 +204,7 @@ DEMO: Key Components
 - IIS Web Sites
   - IIS
   - `c:\inetpub\wwwroot`
-- `{SharePointRoot}\..\15`
+- `[..]\15`
 - SQL Server databases
 
 

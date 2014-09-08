@@ -4,22 +4,23 @@ Modern Office 365, SharePoint & Cloud Development Ramp-Up
 
 Part 1: Understanding SharePoint
 ================================
+1. [Terms you should be aware of](#terms-you-should-be-aware-of)
+1. [Administration Options](#administration-options)
+1. [SharePoint Customization / Development / Extensibility Options](#sharePoint-customization-development-extensibility-options)
+1. [Resources](#resources)
+
 Terms you should be aware of...
+===============================
 - Farm
 - Web Application
 - Tenant / Tenancy
 - Site Collection
 - Site
-- Administration / Management Options
-  - Central Administration
-  - Site Settings
-  - Command line (Windows PowerShell)
 
 
-
-Different Deployments & Hosting Options
+Different deployments & hosting options
 ---------------------------------------
-*Briefly... more on these options in a moment.*
+*Briefly... [more on these options later](#sharePoint-deployment-options).*
 - On-Premises
 - Cloud (Office 365)
 - Hosted (FPWeb / Rackspace / Dell / etc)
@@ -36,7 +37,9 @@ DEMO: Exploring SharePoint 2013
 
 
 
-SharePoint Farms
+&laquo; **[back to top](#part-1-understanding-sharepoint)** &raquo;
+
+SharePoint farms
 ---------------------------------------
 - One more more servers with SharePoint install & connected together
 - Can be 1, 2 or * servers
@@ -45,7 +48,7 @@ SharePoint Farms
 
 
 
-SharePoint Web Application
+SharePoint web application
 --------------------------
 - Based on IIS web site
 - Defines 1+ URL endpoints
@@ -55,7 +58,7 @@ SharePoint Web Application
 
 
 
-SharePoint Site Collections & Sites
+SharePoint site collections & sites
 -----------------------------------
 - Site collections are logical things
   - Used to group sites together
@@ -70,7 +73,7 @@ SharePoint Site Collections & Sites
 
 
 
-SharePoint Service Applications
+SharePoint service applications
 -------------------------------
 - Facilitates sharing resources
   - Content (taxonomies, search indexes)
@@ -81,7 +84,9 @@ SharePoint Service Applications
 
 
 
-Administration Options
+&laquo; **[back to top](#part-1-understanding-sharepoint)** &raquo;
+
+Administration options
 ======================
 - Central Administration
 - Tenant Administration
@@ -128,20 +133,22 @@ Site Settings
 
 
 
-Command Line
+Command line
 ------------
 - All controlled via PowerShell
 - Enables scripted tasks
 - Some operations only available via PowerShell (*not via GUI*)
 - Special SharePoint cmdlets added using a special PowerShell snapin:
-````
+````powershell
 PS C:\>Add-PSSnapIn Microsoft.SharePoint.PowerShell
 ````
 - Special Office 365 administration cmdlets available ([extra download & install](http://technet.microsoft.com/en-us/library/hh974317.aspx))
 
 
 
-SharePoint Deployment Options
+&laquo; **[back to top](#part-1-understanding-sharepoint)** &raquo;
+
+SharePoint deployment options
 =============================
 - On-Premises (*aka: on-prem*)
   - Typically single-tenant
@@ -163,7 +170,9 @@ SharePoint Deployment Options
 
 
 
-SharePoint Customization / Development / Extensibility Options
+&laquo; **[back to top](#part-1-understanding-sharepoint)** &raquo;
+
+SharePoint customization / development / extensibility options
 ==============================================================
 - Depends on the audience
 - Depends on the task / goal
@@ -174,7 +183,7 @@ SharePoint Customization / Development / Extensibility Options
 
 
 
-Audience: Power User
+Audience: power user
 --------------------
 - Browser
 - SharePoint Designer
@@ -183,7 +192,7 @@ Audience: Power User
 
 
 
-Audience: Developer
+Audience: developer
 -------------------
 - Visual Studio
 - SharePoint Solutions
@@ -197,7 +206,7 @@ Audience: Developer
 
 
 
-DEMO: Key Components
+DEMO: key components
 ====================
 - Central Administration
 - Site Settings
@@ -208,5 +217,8 @@ DEMO: Key Components
 - SQL Server databases
 
 
+
 >#Resources
 - [TechNet: Windows PowerShell cmdlets for Office 365 management and deployment](http://technet.microsoft.com/en-us/library/hh974317.aspx)
+
+&laquo; **[back to top](#part-1-understanding-sharepoint)** &raquo;

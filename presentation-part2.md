@@ -30,7 +30,7 @@ Server-Side Object Model
 
 DEMO: Server-side object model & farm solution
 ----------------------------------------------
--Using the [SSOM](#server-side-object-model) from the console
+- Using the [SSOM](#server-side-object-model) from the console
 
 
 
@@ -64,14 +64,14 @@ Features look like...
 ````xml
 <Feature xmlns="http://schemas.microsoft.com/sharepoint/"
          Id="86689158-7048-4421-AD21-E0DEF0D67C81"
-         Title="Wingtip Lead Tracker"
-         Description="A sample feature deployed using WingtipDevProject1.wsp"
+         Title="Swamplander Contacts"
+         Description="A sample feature that creates a contact list."
          Version="1.0.0.0"
          Scope="Web"
          Hidden="FALSE"
-         ReceiverAssembly="WingtipDevProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=56170dd0494afccc"
-         ReceiverClass="WingtipDevProject1.FeatureReceiver"
-         ImageUrl="WingtipDevProject1/FeatureIcon.gif">
+         ReceiverAssembly="SwamplanderContacts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=56170dd0494afccc"
+         ReceiverClass="SwamplanderContacts.FeatureReceiver"
+         ImageUrl="SwamplanderContacts/FeatureIcon.gif">
   <ElementManifests>
     <ElementManifest Location="elements.xml" />
   </ElementManifests>
@@ -84,11 +84,11 @@ Feature element manifests look like...
 --------------------------------------
 ````xml
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <ListInstance Id="SalesLeads"
+  <ListInstance Id="SwampContacts"
     FeatureId="00BFEA71-7E6D-4186-9BA8-C047AC750105"
     TemplateType="105"
-    Title="Sales Leads"
-    Url="SalesLeads"
+    Title="Swampland Contacts"
+    Url="SwampContacts"
     OnQuickLaunch="TRUE" />
 </Elements>
 ````
@@ -122,7 +122,7 @@ public class FeatureReceiver : SPFeatureReceiver {
     SPWeb site = props.Feature.Parent as SPWeb;
     if (site != null) {
       site.Title = "Feature Activated";
-      site.SiteLogoUrl = @"_layouts/images/WingtipDevProject1/SiteIcon.gif";
+      site.SiteLogoUrl = @"_layouts/images/Swampland/SiteIcon.gif";
       site.Update();
     }
   }
@@ -133,8 +133,10 @@ public class FeatureReceiver : SPFeatureReceiver {
       site.Title = "Feature Deactivated";
       site.SiteLogoUrl = "";
       site.Update();
-      SPList list = site.Lists.TryGetList("Sales Leads");
-      if (list != null) { list.Delete(); }
+      SPList list = site.Lists.TryGetList("Swampland Contacts");
+      if (list != null) {
+        list.Delete();
+      }
     }
   }
 
@@ -173,14 +175,14 @@ Solutions look like...
           DeploymentServerType="WebFrontEnd"
           ResetWebServer="TRUE">
   <FeatureManifests>
-    <FeatureManifest Location="LeadTracker\Feature.xml" />
+    <FeatureManifest Location="SwampContacts\Feature.xml" />
   </FeatureManifests>
   <TemplateFiles>
-    <TemplateFile Location="IMAGES\WingtipDevProject\FeatureIcon.gif" />
-    <TemplateFile Location="IMAGES\WingtipDevProject\SiteIcon.gif" />
+    <TemplateFile Location="IMAGES\Swampland\FeatureIcon.gif" />
+    <TemplateFile Location="IMAGES\Swampland\SiteIcon.gif" />
   </TemplateFiles>
   <Assemblies>
-    <Assembly Location="WingtipDevProject.dll"
+    <Assembly Location="SwamplandContacts.dll"
               DeploymentTarget="GlobalAssemblyCache" />
   </Assemblies>
 </Solution>

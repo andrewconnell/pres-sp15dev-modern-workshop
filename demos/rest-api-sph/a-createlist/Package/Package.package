@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="182a5142-a83f-4062-9358-54df6843ebf9" solutionId="182a5142-a83f-4062-9358-54df6843ebf9" resetWebServer="false" sharePointProductVersion="15.0" name="CreateCustomerList" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="2b00789c-efff-4d48-bdb3-ce1ab8400dda" />
+  </features>
+</package>

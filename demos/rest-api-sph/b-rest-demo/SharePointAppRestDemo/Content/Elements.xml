@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" />
+<File Path="Content\images\FeatureIcon.gif" Url="Content/images/FeatureIcon.gif" />
+<File Path="Content\images\favicon.ico" Url="Content/images/favicon.ico" />
+<File Path="Content\images\logo16.gif" Url="Content/images/logo16.gif" />
+<File Path="Content\images\logo32.gif" Url="Content/images/logo32.gif" />
+<File Path="Content\images\SiteIcon.gif" Url="Content/images/SiteIcon.gif" />
+</Module>
+</Elements>

@@ -1,6 +1,6 @@
 Modern Office 365, SharePoint & Cloud Development Ramp-Up
 =========================================================
-*Follow along at [github.com/andrewconnell/pres-modern-spdev-workshop](http://github.com/andrewconnell/pres-modern-spdev-workshop). This is just but one part of multiple parts that make up this workshop... [click here for all the parts that makeup this workshop](presentation.md).*
+> *Follow along at [github.com / andrewconnell / pres-modern-spdev-workshop](http://github.com/andrewconnell/pres-modern-spdev-workshop). This is just but one part of multiple parts that make up this workshop... [click here for all the parts that makeup this workshop](presentation.md).*
 
 Part 1: Understanding SharePoint
 ================================
@@ -9,6 +9,12 @@ Part 1: Understanding SharePoint
 1. [SharePoint Customization / Development / Extensibility Options](#sharePoint-customization-development-extensibility-options)
 1. [Resources](#resources)
 
+
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+
 Terms you should be aware of...
 ===============================
 - Farm
@@ -16,6 +22,7 @@ Terms you should be aware of...
 - Tenant / Tenancy
 - Site Collection
 - Site
+
 
 
 Different deployments & hosting options
@@ -29,18 +36,20 @@ Different deployments & hosting options
 
 
 DEMO: Exploring SharePoint 2013
-===============================
+-------------------------------
 - Team site homepage
 - Site Contents
 - Site Pages
 - Web Parts
+
+![demo](img/demo07.gif)
 
 
 
 &laquo; **[back to top](#part-1-understanding-sharepoint)** &raquo;
 
 SharePoint farms
----------------------------------------
+----------------
 - One more more servers with SharePoint install & connected together
 - Can be 1, 2 or * servers
 
@@ -138,10 +147,12 @@ Command line
 - All controlled via PowerShell
 - Enables scripted tasks
 - Some operations only available via PowerShell (*not via GUI*)
-- Special SharePoint cmdlets added using a special PowerShell snapin:
-````powershell
-PS C:\>Add-PSSnapIn Microsoft.SharePoint.PowerShell
-````
+- Special SharePoint cmdlets added using a special PowerShell snapin:  
+
+  ````powershell
+  PS C:\>Add-PSSnapIn Microsoft.SharePoint.PowerShell
+  ````
+
 - Special Office 365 administration cmdlets available ([extra download & install](http://technet.microsoft.com/en-us/library/hh974317.aspx))
 
 
@@ -215,6 +226,8 @@ DEMO: key components
   - `c:\inetpub\wwwroot`
 - `[..]\15`
 - SQL Server databases
+
+![demo](img/demo04.gif)
 
 
 

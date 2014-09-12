@@ -1,6 +1,6 @@
 Modern Office 365, SharePoint & Cloud Development Ramp-Up
 =========================================================
-*Follow along at [github.com/andrewconnell/pres-modern-spdev-workshop](http://github.com/andrewconnell/pres-modern-spdev-workshop)*.
+> *Follow along at [github.com / andrewconnell / pres-modern-spdev-workshop](http://github.com/andrewconnell/pres-modern-spdev-workshop)*
 
 This workshop consists of four parts which are as follows:
 
@@ -24,6 +24,6 @@ Next we will move into the newest customization approach available to customers:
 
 
 
-[Part 4: Development Patterns & App Security](presentation-part4.md)
+[Part 4: Client APIs, App Types & App Security](presentation-part4.md)
 ---------------------------------------------------------
 In the last part of this workshop we will look at the different types of development patterns available to developers. These will be a bit SharePoint App Model heavy, but some of the patterns could be applied to solution-based development as well. Finally we will touch on a very important subject, that of app identity and security.

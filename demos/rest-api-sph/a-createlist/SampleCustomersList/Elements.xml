@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Customers"
+                OnQuickLaunch="TRUE"
+                TemplateType="105"
+                FeatureId="00bfea71-7e6d-4186-9ba8-c047ac750105"
+                Url="Lists/Customers"
+                Description="Sample customers list">
+
+
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Nelson</Field>
+          <Field Name="FirstName">Quincy</Field>
+          <Field Name="Company">Benthic Petroleum</Field>
+          <Field Name="WorkPhone">1(317)608-7748</Field>
+          <Field Name="HomePhone">1(317)517-3737</Field>
+          <Field Name="Email">Quincy.Nelson@BenthicPetroleum.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Mason</Field>
+          <Field Name="FirstName">Jude</Field>
+          <Field Name="Company">Cyberdyne Systems</Field>
+          <Field Name="WorkPhone">1(416)408-0466</Field>
+          <Field Name="HomePhone">1(416)411-0071</Field>
+          <Field Name="Email">Jude.Mason@CyberdyneSystems.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Stout</Field>
+          <Field Name="FirstName">Sid</Field>
+          <Field Name="Company">Roxxon</Field>
+          <Field Name="WorkPhone">1(236)258-6571</Field>
+          <Field Name="HomePhone">1(236)376-8576</Field>
+          <Field Name="Email">Sid.Stout@Roxxon.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Gillespie</Field>
+          <Field Name="FirstName">Gilberto</Field>
+          <Field Name="Company">Shinra Electric Power Company</Field>
+          <Field Name="WorkPhone">1(203)510-1720</Field>
+          <Field Name="HomePhone">1(203)755-7810</Field>
+          <Field Name="Email">Gilberto.Gillespie@ShinraElectricPowerCompany.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Strickland</Field>
+          <Field Name="FirstName">Diane</Field>
+          <Field Name="Company">Izon</Field>
+          <Field Name="WorkPhone">1(310)413-4851</Field>
+          <Field Name="HomePhone">1(310)523-5411</Field>
+          <Field Name="Email">Diane.Strickland@Izon.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Zimmerman</Field>
+          <Field Name="FirstName">Jacqueline</Field>
+          <Field Name="Company">Zorg Industries</Field>
+          <Field Name="WorkPhone">1(407)234-0550</Field>
+          <Field Name="HomePhone">1(407)764-3522</Field>
+          <Field Name="Email">Jacqueline.Zimmerman@ZorgIndustries.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Schroeder</Field>
+          <Field Name="FirstName">Naomi</Field>
+          <Field Name="Company">ComTron</Field>
+          <Field Name="WorkPhone">1(781)355-6648</Field>
+          <Field Name="HomePhone">1(781)356-2831</Field>
+          <Field Name="Email">Naomi.Schroeder@ComTron.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Stephens</Field>
+          <Field Name="FirstName">Lynne</Field>
+          <Field Name="Company">Trade Federation</Field>
+          <Field Name="WorkPhone">1(270)787-7308</Field>
+          <Field Name="HomePhone">1(270)732-1700</Field>
+          <Field Name="Email">Lynne.Stephens@TradeFederation.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sullivan</Field>
+          <Field Name="FirstName">Luther</Field>
+          <Field Name="Company">Metacortex</Field>
+          <Field Name="WorkPhone">1(811)755-3404</Field>
+          <Field Name="HomePhone">1(811)684-7814</Field>
+          <Field Name="Email">Luther.Sullivan@Metacortex.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Parsons</Field>
+          <Field Name="FirstName">Rose</Field>
+          <Field Name="Company">Hanso Foundation</Field>
+          <Field Name="WorkPhone">1(812)357-5583</Field>
+          <Field Name="HomePhone">1(812)727-0246</Field>
+          <Field Name="Email">Rose.Parsons@HansoFoundation.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Meadows</Field>
+          <Field Name="FirstName">Bridgette</Field>
+          <Field Name="Company">Brown Streak Railroad</Field>
+          <Field Name="WorkPhone">1(510)468-4824</Field>
+          <Field Name="HomePhone">1(510)403-3653</Field>
+          <Field Name="Email">Bridgette.Meadows@BrownStreakRailroad.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Black</Field>
+          <Field Name="FirstName">Merle</Field>
+          <Field Name="Company">Volée Airlines</Field>
+          <Field Name="WorkPhone">1(848)240-1267</Field>
+          <Field Name="HomePhone">1(848)221-0302</Field>
+          <Field Name="Email">Merle.Black@VoléeAirlines.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Wilkinson</Field>
+          <Field Name="FirstName">Berta</Field>
+          <Field Name="Company">Doublemeat Palace</Field>
+          <Field Name="WorkPhone">1(283)830-5347</Field>
+          <Field Name="HomePhone">1(283)338-3401</Field>
+          <Field Name="Email">Berta.Wilkinson@DoublemeatPalace.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Bates</Field>
+          <Field Name="FirstName">Brandi</Field>
+          <Field Name="Company">Duff Beer</Field>
+          <Field Name="WorkPhone">1(530)660-1110</Field>
+          <Field Name="HomePhone">1(530)833-4310</Field>
+          <Field Name="Email">Brandi.Bates@DuffBeer.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Mathews</Field>
+          <Field Name="FirstName">Ana</Field>
+          <Field Name="Company">WarioWare, Inc.</Field>
+          <Field Name="WorkPhone">1(843)663-5428</Field>
+          <Field Name="HomePhone">1(843)782-2117</Field>
+          <Field Name="Email">Ana.Mathews@WarioWare,Inc..com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Lawson</Field>
+          <Field Name="FirstName">Chet</Field>
+          <Field Name="Company">The Crab Shack</Field>
+          <Field Name="WorkPhone">1(248)843-4478</Field>
+          <Field Name="HomePhone">1(248)523-1010</Field>
+          <Field Name="Email">Chet.Lawson@TheCrabShack.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Stephenson</Field>
+          <Field Name="FirstName">Danial</Field>
+          <Field Name="Company">Grand Trunk Semaphore Company</Field>
+          <Field Name="WorkPhone">1(234)682-3050</Field>
+          <Field Name="HomePhone">1(234)335-6431</Field>
+          <Field Name="Email">Danial.Stephenson@GrandTrunkSemaphoreCompany.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Gilbert</Field>
+          <Field Name="FirstName">Adela</Field>
+          <Field Name="Company">Fabrikam</Field>
+          <Field Name="WorkPhone">1(269)874-6536</Field>
+          <Field Name="HomePhone">1(269)311-8241</Field>
+          <Field Name="Email">Adela.Gilbert@Fabrikam.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Clayton</Field>
+          <Field Name="FirstName">Gina</Field>
+          <Field Name="Company">Sheinhardt Wig Company</Field>
+          <Field Name="WorkPhone">1(248)484-5584</Field>
+          <Field Name="HomePhone">1(248)778-6072</Field>
+          <Field Name="Email">Gina.Clayton@SheinhardtWigCompany.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Gallagher</Field>
+          <Field Name="FirstName">Trisha</Field>
+          <Field Name="Company">Brown Streak Railroad</Field>
+          <Field Name="WorkPhone">1(305)603-3703</Field>
+          <Field Name="HomePhone">1(305)422-8022</Field>
+          <Field Name="Email">Trisha.Gallagher@BrownStreakRailroad.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Dominguez</Field>
+          <Field Name="FirstName">Abby</Field>
+          <Field Name="Company">Izon</Field>
+          <Field Name="WorkPhone">1(283)871-4724</Field>
+          <Field Name="HomePhone">1(283)208-7600</Field>
+          <Field Name="Email">Abby.Dominguez@Izon.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Bush</Field>
+          <Field Name="FirstName">Doreen</Field>
+          <Field Name="Company">Volée Airlines</Field>
+          <Field Name="WorkPhone">1(440)641-5148</Field>
+          <Field Name="HomePhone">1(440)747-5240</Field>
+          <Field Name="Email">Doreen.Bush@VoléeAirlines.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Johnson</Field>
+          <Field Name="FirstName">Gertrude</Field>
+          <Field Name="Company">InGen</Field>
+          <Field Name="WorkPhone">1(416)513-0234</Field>
+          <Field Name="HomePhone">1(416)570-3100</Field>
+          <Field Name="Email">Gertrude.Johnson@InGen.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Oneill</Field>
+          <Field Name="FirstName">Lowell</Field>
+          <Field Name="Company">Strickland Propane</Field>
+          <Field Name="WorkPhone">1(303)807-4013</Field>
+          <Field Name="HomePhone">1(303)636-8736</Field>
+          <Field Name="Email">Lowell.Oneill@StricklandPropane.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Guy</Field>
+          <Field Name="FirstName">Sandra</Field>
+          <Field Name="Company">Ewing Oil</Field>
+          <Field Name="WorkPhone">1(408)716-8171</Field>
+          <Field Name="HomePhone">1(408)651-6133</Field>
+          <Field Name="Email">Sandra.Guy@EwingOil.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Holder</Field>
+          <Field Name="FirstName">Stacey</Field>
+          <Field Name="Company">Roxxon</Field>
+          <Field Name="WorkPhone">1(804)478-6177</Field>
+          <Field Name="HomePhone">1(804)284-3634</Field>
+          <Field Name="Email">Stacey.Holder@Roxxon.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Bond</Field>
+          <Field Name="FirstName">Son</Field>
+          <Field Name="Company">Dinoco</Field>
+          <Field Name="WorkPhone">1(216)758-5745</Field>
+          <Field Name="HomePhone">1(216)544-1216</Field>
+          <Field Name="Email">Son.Bond@Dinoco.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Merritt</Field>
+          <Field Name="FirstName">Tristan</Field>
+          <Field Name="Company">WarioWare, Inc.</Field>
+          <Field Name="WorkPhone">1(407)612-6211</Field>
+          <Field Name="HomePhone">1(407)536-1311</Field>
+          <Field Name="Email">Tristan.Merritt@WarioWare,Inc..com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Banks</Field>
+          <Field Name="FirstName">Shirley</Field>
+          <Field Name="Company">Jupiter Mining Corporation</Field>
+          <Field Name="WorkPhone">1(303)214-2256</Field>
+          <Field Name="HomePhone">1(303)218-6458</Field>
+          <Field Name="Email">Shirley.Banks@JupiterMiningCorporation.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Warren</Field>
+          <Field Name="FirstName">Darrick</Field>
+          <Field Name="Company">Kwik-E-Mart</Field>
+          <Field Name="WorkPhone">1(850)646-8273</Field>
+          <Field Name="HomePhone">1(850)201-8764</Field>
+          <Field Name="Email">Darrick.Warren@Kwik-E-Mart.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Downs</Field>
+          <Field Name="FirstName">Roland</Field>
+          <Field Name="Company">Contoso</Field>
+          <Field Name="WorkPhone">1(855)804-0846</Field>
+          <Field Name="HomePhone">1(855)354-4534</Field>
+          <Field Name="Email">Roland.Downs@Contoso.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Riggs</Field>
+          <Field Name="FirstName">Kirby</Field>
+          <Field Name="Company">Hanso Foundation</Field>
+          <Field Name="WorkPhone">1(283)338-4602</Field>
+          <Field Name="HomePhone">1(283)380-1033</Field>
+          <Field Name="Email">Kirby.Riggs@HansoFoundation.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Sandoval</Field>
+          <Field Name="FirstName">Bryce</Field>
+          <Field Name="Company">Contoso</Field>
+          <Field Name="WorkPhone">1(408)745-5654</Field>
+          <Field Name="HomePhone">1(408)542-5654</Field>
+          <Field Name="Email">Bryce.Sandoval@Contoso.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Levine</Field>
+          <Field Name="FirstName">Scottie</Field>
+          <Field Name="Company">Zorin Industries</Field>
+          <Field Name="WorkPhone">1(519)785-3613</Field>
+          <Field Name="HomePhone">1(519)411-3825</Field>
+          <Field Name="Email">Scottie.Levine@ZorinIndustries.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Reynolds</Field>
+          <Field Name="FirstName">Eloy</Field>
+          <Field Name="Company">Prescott Pharmaceuticals</Field>
+          <Field Name="WorkPhone">1(811)381-4773</Field>
+          <Field Name="HomePhone">1(811)354-3444</Field>
+          <Field Name="Email">Eloy.Reynolds@PrescottPharmaceuticals.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Huber</Field>
+          <Field Name="FirstName">Millicent</Field>
+          <Field Name="Company">Brown Streak Railroad</Field>
+          <Field Name="WorkPhone">1(215)843-2221</Field>
+          <Field Name="HomePhone">1(215)421-2822</Field>
+          <Field Name="Email">Millicent.Huber@BrownStreakRailroad.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Mitchell</Field>
+          <Field Name="FirstName">Luther</Field>
+          <Field Name="Company">Peach Pit</Field>
+          <Field Name="WorkPhone">1(441)742-8677</Field>
+          <Field Name="HomePhone">1(441)673-0274</Field>
+          <Field Name="Email">Luther.Mitchell@PeachPit.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Delaney</Field>
+          <Field Name="FirstName">Jim</Field>
+          <Field Name="Company">The Hanso Foundation</Field>
+          <Field Name="WorkPhone">1(808)815-4102</Field>
+          <Field Name="HomePhone">1(808)601-6656</Field>
+          <Field Name="Email">Jim.Delaney@TheHansoFoundation.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">McFarland</Field>
+          <Field Name="FirstName">Mari</Field>
+          <Field Name="Company">Prescott Pharmaceuticals</Field>
+          <Field Name="WorkPhone">1(520)634-5281</Field>
+          <Field Name="HomePhone">1(520)833-5558</Field>
+          <Field Name="Email">Mari.McFarland@PrescottPharmaceuticals.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Gill</Field>
+          <Field Name="FirstName">Jere</Field>
+          <Field Name="Company">Crudgington Brewery</Field>
+          <Field Name="WorkPhone">1(203)274-1641</Field>
+          <Field Name="HomePhone">1(203)635-8100</Field>
+          <Field Name="Email">Jere.Gill@CrudgingtonBrewery.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Frazier</Field>
+          <Field Name="FirstName">Jewell</Field>
+          <Field Name="Company">Hishii Industries</Field>
+          <Field Name="WorkPhone">1(512)448-1714</Field>
+          <Field Name="HomePhone">1(512)616-6851</Field>
+          <Field Name="Email">Jewell.Frazier@HishiiIndustries.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Payne</Field>
+          <Field Name="FirstName">Bryon</Field>
+          <Field Name="Company">Central Perk</Field>
+          <Field Name="WorkPhone">1(281)710-2724</Field>
+          <Field Name="HomePhone">1(281)344-8653</Field>
+          <Field Name="Email">Bryon.Payne@CentralPerk.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Langley</Field>
+          <Field Name="FirstName">Leroy</Field>
+          <Field Name="Company">Cyberdyne Systems</Field>
+          <Field Name="WorkPhone">1(804)682-7086</Field>
+          <Field Name="HomePhone">1(804)620-4580</Field>
+          <Field Name="Email">Leroy.Langley@CyberdyneSystems.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Harmon</Field>
+          <Field Name="FirstName">Emerson</Field>
+          <Field Name="Company">Ewing Oil</Field>
+          <Field Name="WorkPhone">1(304)373-8811</Field>
+          <Field Name="HomePhone">1(304)805-7303</Field>
+          <Field Name="Email">Emerson.Harmon@EwingOil.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Colon</Field>
+          <Field Name="FirstName">Bobby</Field>
+          <Field Name="Company">Krusty Burger</Field>
+          <Field Name="WorkPhone">1(312)220-6110</Field>
+          <Field Name="HomePhone">1(312)886-4634</Field>
+          <Field Name="Email">Bobby.Colon@KrustyBurger.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Rivera</Field>
+          <Field Name="FirstName">Amanda</Field>
+          <Field Name="Company">Ecumena</Field>
+          <Field Name="WorkPhone">1(202)457-8584</Field>
+          <Field Name="HomePhone">1(202)642-8581</Field>
+          <Field Name="Email">Amanda.Rivera@Ecumena.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Velasquez</Field>
+          <Field Name="FirstName">Kimberly</Field>
+          <Field Name="Company">Blue Sun Corporation</Field>
+          <Field Name="WorkPhone">1(250)378-2225</Field>
+          <Field Name="HomePhone">1(250)837-6222</Field>
+          <Field Name="Email">Kimberly.Velasquez@BlueSunCorporation.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Oliver</Field>
+          <Field Name="FirstName">Cleo</Field>
+          <Field Name="Company">Daystrom Data Concepts</Field>
+          <Field Name="WorkPhone">1(312)476-4450</Field>
+          <Field Name="HomePhone">1(312)255-3238</Field>
+          <Field Name="Email">Cleo.Oliver@DaystromDataConcepts.com</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Clay</Field>
+          <Field Name="FirstName">Deborah</Field>
+          <Field Name="Company">Krusty Burger</Field>
+          <Field Name="WorkPhone">1(310)660-0176</Field>
+          <Field Name="HomePhone">1(310)853-6030</Field>
+          <Field Name="Email">Deborah.Clay@KrustyBurger.com</Field>
+        </Row>
+      </Rows>
+    </Data>
+
+  </ListInstance>
+</Elements>

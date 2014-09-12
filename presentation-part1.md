@@ -53,7 +53,7 @@ SharePoint farms
 - One more more servers with SharePoint install & connected together
 - Can be 1, 2 or * servers
 
-![sharepoint farm](img/spfarm.png)
+![sharepoint farm](img/spFarm.png)
 
 
 

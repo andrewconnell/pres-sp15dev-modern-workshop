@@ -71,7 +71,7 @@ DEMO: JavaScript & the REST API
 
 
 REST API - Get Multiple Items
---
+-----------------------------
 ````javascript
 // get multiple items
 var requestUri = _spPageContextInfo.webAbsoluteUrl +
@@ -95,7 +95,7 @@ $.ajax({
 
 
 REST API - Get One Item
---
+-----------------------
 ````javascript
 var requestUri = _spPageContextInfo.webAbsoluteUrl +
     '/_api/Web/Lists/getByTitle(\'Contacts\')/items/' +
@@ -119,7 +119,7 @@ $.ajax({
 
 
 REST API - Create An Item
---
+-------------------------
 ````javascript
 var requestUri = _spPageContextInfo.webAbsoluteUrl +
           '/_api/Web/Lists/getByTitle(\'Contacts\')/items';
@@ -149,7 +149,7 @@ $.ajax({
 
 
 REST API - Update An Item
---
+-------------------------
 ````javascript
 var requestUri = _spPageContextInfo.webAbsoluteUrl +
           '/_api/Web/Lists/getByTitle(\'Contacts\')/items(1)';
@@ -182,7 +182,7 @@ $.ajax({
 
 
 REST API - Delete An Item
---
+-------------------------
 ````javascript
 var requestUri = _spPageContextInfo.webAbsoluteUrl +
           '/_api/Web/Lists/getByTitle(\'Contacts\')/items(1)';

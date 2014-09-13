@@ -1,6 +1,6 @@
 Modern Office 365, SharePoint & Cloud Development Ramp-Up
 =========================================================
-> *Follow along at [github.com / andrewconnell / pres-modern-spdev-workshop](http://github.com/andrewconnell/pres-modern-spdev-workshop)*
+> *Follow along at [github.com / andrewconnell / pres-sp15dev-modern-workshop](http://github.com/andrewconnell/pres-sp15dev-modern-workshop)*
 
 This workshop consists of four parts which are as follows:
 
@@ -39,4 +39,4 @@ Thanks! Any Questions?
 Andrew Connell
 ==============
 - [www.andrewconnell.com](http://www.andrewconnell.com) | [@andrewconnell](http://www.twitter.com/andrewconnell)
-- this pres: [github.com / andrewconnell / pres-spa-ng-spapps](http://github.com/andrewconnell/pres-spa-ng-spapps)
+- this pres: [github.com / andrewconnell / pres-sp15dev-modern-workshop](http://github.com/andrewconnell/pres-sp15dev-modern-workshop)

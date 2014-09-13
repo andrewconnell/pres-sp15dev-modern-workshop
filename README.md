@@ -1,6 +1,6 @@
 Modern Office 365, SharePoint & Cloud Development Ramp-Up
 =========================================================
-> *Follow along at [github.com / andrewconnell / pres-modern-spdev-workshop](http://github.com/andrewconnell/pres-modern-spdev-workshop)*
+> *Follow along at [github.com / andrewconnell / pres-sp15dev-modern-workshop](http://github.com/andrewconnell/pres-sp15dev-modern-workshop)*
 >>
 >*Why do [I use GitHub for developer presentations & benefits to you](http://www.andrewconnell.com/blog/using-github-for-developer-presentations)?*
 

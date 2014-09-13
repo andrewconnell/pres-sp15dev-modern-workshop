@@ -27,3 +27,16 @@ Next we will move into the newest customization approach available to customers:
 [Part 4: Client APIs, App Types & App Security](presentation-part4.md)
 ---------------------------------------------------------
 In the last part of this workshop we will look at the different types of development patterns available to developers. These will be a bit SharePoint App Model heavy, but some of the patterns could be applied to solution-based development as well. Finally we will touch on a very important subject, that of app identity and security.
+
+
+
+Thanks! Any Questions?
+======================
+![questions?](img/clapping.gif)
+
+
+
+Andrew Connell
+==============
+- [www.andrewconnell.com](http://www.andrewconnell.com) | [@andrewconnell](http://www.twitter.com/andrewconnell)
+- this pres: [github.com / andrewconnell / pres-spa-ng-spapps](http://github.com/andrewconnell/pres-spa-ng-spapps)

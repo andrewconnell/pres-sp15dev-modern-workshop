@@ -1,17 +1,9 @@
-Modern Office 365, SharePoint & Cloud Development Ramp-Up
-=========================================================
-> *Follow along at [github.com / andrewconnell / pres-modern-spdev-workshop](http://github.com/andrewconnell/pres-modern-spdev-workshop). This is just but one part of multiple parts that make up this workshop... [click here for all the parts that makeup this workshop](presentation.md).*
-
 Part 1: Understanding SharePoint
 ================================
 1. [Terms you should be aware of](#terms-you-should-be-aware-of)
 1. [Administration Options](#administration-options)
 1. [SharePoint Customization / Development / Extensibility Options](#sharePoint-customization-development-extensibility-options)
 1. [Resources](#resources)
-
-
-
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
 
 
@@ -28,6 +20,7 @@ Terms you should be aware of...
 Different deployments & hosting options
 ---------------------------------------
 *Briefly... [more on these options later](#sharePoint-deployment-options).*
+
 - On-Premises
 - Cloud (Office 365)
 - Hosted (FPWeb / Rackspace / Dell / etc)
@@ -45,8 +38,6 @@ DEMO: Exploring SharePoint 2013
 ![demo](img/demo07.gif)
 
 
-
-&laquo; **[back to top](#part-1-understanding-sharepoint)** &raquo;
 
 SharePoint farms
 ----------------
@@ -92,8 +83,6 @@ SharePoint service applications
 ![sharepoint service apps](img/spServiceApps.png)
 
 
-
-&laquo; **[back to top](#part-1-understanding-sharepoint)** &raquo;
 
 Administration options
 ======================
@@ -157,34 +146,50 @@ Command line
 
 
 
-&laquo; **[back to top](#part-1-understanding-sharepoint)** &raquo;
-
 SharePoint deployment options
 =============================
 - On-Premises (*aka: on-prem*)
+- Cloud (Office 365)
+- Hosted
+- Hybrid
+
+
+
+On-Premises (*aka: on-prem*)
+----------------------------
   - Typically single-tenant
   - Manage using Central Administration / command line
   - Full access to all features
   - Deployed on your hardware, you manage everything
-- Cloud (Office 365)
+
+
+
+Cloud (Office 365)
+------------------
   - Microsoft deployed, hosted & managed
   - Pay per user license
   - Most features available
-- Hosted
+
+
+
+Hosted
+------
   - 3rd party deploys, hosts & manages for you
   - Like on-prem, but help in the day-to-day admin
   - Access to all on-prem features, but not O365 features
-- Hybrid
+
+
+
+Hybrid
+------
   - On-premises & cloud instances linked together
   - Best of both worlds
   - Varies from customer - to - customer
 
 
 
-&laquo; **[back to top](#part-1-understanding-sharepoint)** &raquo;
-
-SharePoint customization / development / extensibility options
-==============================================================
+SharePoint customization extensibility options
+==============================================
 - Depends on the audience
 - Depends on the task / goal
 - Tools available:
@@ -219,19 +224,11 @@ Audience: developer
 
 DEMO: key components
 ====================
-- Central Administration
-- Site Settings
-- IIS Web Sites
-  - IIS
-  - `c:\inetpub\wwwroot`
-- `[..]\15`
-- SQL Server databases
+Admin sites, IIS Web Sites, File system & Databases
 
 ![demo](img/demo04.gif)
 
 
 
->#Resources
+#Resources
 - [TechNet: Windows PowerShell cmdlets for Office 365 management and deployment](http://technet.microsoft.com/en-us/library/hh974317.aspx)
-
-&laquo; **[back to top](#part-1-understanding-sharepoint)** &raquo;

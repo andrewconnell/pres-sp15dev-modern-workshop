@@ -1,15 +1,8 @@
-Modern Office 365, SharePoint & Cloud Development Ramp-Up
-=========================================================
-> *Follow along at [github.com / andrewconnell / pres-modern-spdev-workshop](http://github.com/andrewconnell/pres-modern-spdev-workshop). This is just but one part of multiple parts that make up this workshop... [click here for all the parts that makeup this workshop](presentation.md).*
-
 Part 4: Client APIs, App Types & App Security
 =============================================
 1. [Understanding the SharePoint Client APIs](#understanding-the-sharepoint-client-apis)
 1. [App Identity, Security & Permissions](#app-identity-security--permissions)
 1. [Brief Look at App Authentication](#brief-look-at-app-authentication)
-
-
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
 
 
@@ -43,11 +36,11 @@ Client-side object model
 
 DEMO: C# & the CSOM
 -------------------
-- Use Windows Console app to demo CSOM - [csom-console](demos/csom-console)
+Use Windows Console app to demo CSOM - [csom-console](demos/csom-console)
 
 ![demo](img/demo01.jpg)
 
- 
+
 
 REST API
 --------
@@ -64,7 +57,7 @@ REST API
 
 DEMO: JavaScript & the REST API
 -------------------------------
-- Create list & show code to get data: [rest-api-sph](demos/rest-api-sph)
+Create list & show code to get data: [rest-api-sph](demos/rest-api-sph)
 
 ![demo](img/demo03.jpeg)
 
@@ -148,6 +141,7 @@ $.ajax({
 ````
 
 
+
 REST API - Update An Item
 -------------------------
 ````javascript
@@ -209,26 +203,28 @@ CSOM & REST API compared
 
 ![demo](img/religiouswar.jpg)
 
-- CSOM is better than REST because...
-  - Can do more - some things not supported in REST API yet (ie: workflow)
-  - Write less code because you don't do HTTP plumbing code
-  - Supports batching requests
-  - Develop against a strongly typed API
-- REST API is better than CSOM because...
-  - Full control over the HTTP calls
-  - More web-standards friendly
-  - Not limited to .NET or JavaScript in the browser
-  - Data returned as raw collections => friendly to 3rd party libraries
-  - Microsoft *seems* to be favoring this going forward
-  - *AC prefers it 9 our of 10 times you ask him* :smile:
+
+
+###CSOM is better than REST because...
+- Can do more - some things not supported in REST API yet (ie: workflow)
+- Write less code because you don't do HTTP plumbing code
+- Supports batching requests
+- Develop against a strongly typed API
 
 
 
-&laquo; **[back to top](#part-4-client-apis-app-types--app-security)** &raquo;
+###REST API is better than CSOM because...
+- Full control over the HTTP calls
+- More web-standards friendly
+- Not limited to .NET or JavaScript in the browser
+- Data returned as raw collections => friendly to 3rd party libraries
+- Microsoft *seems* to be favoring this going forward
+- *AC prefers it 9 our of 10 times you ask him*
+
+
 
 App Identity, Security & Permissions
 ====================================
-- App Identity
 - App Authentication
 - App Security & Permissions
 
@@ -236,20 +232,29 @@ App Identity, Security & Permissions
 
 App Authentication
 ------------------
-- Internal authentication
-  - Used if incoming call: 
-    - targets CSOM / REST API
-    - includes claims token with established user identity
-    - targets URL of an existing AppWeb
-  - Nothing to setup... it just works!
-  - Always used when making client-side calls
-    - Apps can't authenticate in JavaScript... can't protect clientSecret / certificate
-  - App only permissions not supported / possible
-- External authentication
-  - Used when server-side code used to call CSOM / REST API
-  - Incoming calls can target HostWeb & other sites
-  - Incoming calls include OAuth2 access token, identifying app
-    - Optionally also include user identity
+- Two types
+  - Internal authentication
+  - External authentication
+
+
+
+###Internal authentication
+- Used if incoming call: 
+  - targets CSOM / REST API
+  - includes claims token with established user identity
+  - targets URL of an existing AppWeb
+- Nothing to setup... it just works!
+- Always used when making client-side calls
+  - Apps can't authenticate in JavaScript... can't protect clientSecret / certificate
+- App only permissions not supported / possible
+
+
+
+###External authentication
+- Used when server-side code used to call CSOM / REST API
+- Incoming calls can target HostWeb & other sites
+- Incoming calls include OAuth2 access token, identifying app
+  - Optionally also include user identity
 
 
 
@@ -277,12 +282,10 @@ Types of permissions
   - Only the app needs permissions to do the requested operation
   - User permissions are not checked
 
-&laquo; **[back to top](#part-4-client-apis-app-types--app-security)** &raquo;
 
 
-
-Brief Look at app authentication
-================================
+Brief Look at app authentication implementation
+-----------------------------------------------
 - App authentication founded on OAuth2 protocol
 - Apps need a username & password
   - Username = client ID
@@ -300,7 +303,3 @@ Obtaining an access token
   - Used in the 2-legged approach
   - SSL certificates used to establish trust between app & SharePoint
   - Not available in Office 365
-
-
-
-&laquo; **[back to top](#part-4-client-apis-app-types--app-security)** &raquo;

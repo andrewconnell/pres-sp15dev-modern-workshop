@@ -1,11 +1,3 @@
-Modern Office 365, SharePoint & Cloud Development Ramp-Up
-=========================================================
-> *Follow along at [github.com / andrewconnell / pres-sp15dev-modern-workshop](http://github.com/andrewconnell/pres-sp15dev-modern-workshop)*
-
-This workshop consists of four parts which are as follows:
-
-
-
 [Part 1: Understanding SharePoint](presentation-part1.md)
 ---------------------------------------------------------
 In this section we will quickly run through some terms and concepts that every SharePoint developer must be familiar with and understand. If you already know a little bit about SharePoint, you might not get much out of this, we need to level set with everyone.
@@ -27,16 +19,3 @@ Next we will move into the newest customization approach available to customers:
 [Part 4: Client APIs, App Types & App Security](presentation-part4.md)
 ---------------------------------------------------------
 In the last part of this workshop we will look at the different types of development patterns available to developers. These will be a bit SharePoint App Model heavy, but some of the patterns could be applied to solution-based development as well. Finally we will touch on a very important subject, that of app identity and security.
-
-
-
-Thanks! Any Questions?
-======================
-![questions?](img/clapping.gif)
-
-
-
-Andrew Connell
-==============
-- [www.andrewconnell.com](http://www.andrewconnell.com) | [@andrewconnell](http://www.twitter.com/andrewconnell)
-- this pres: [github.com / andrewconnell / pres-sp15dev-modern-workshop](http://github.com/andrewconnell/pres-sp15dev-modern-workshop)

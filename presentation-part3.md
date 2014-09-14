@@ -1,16 +1,8 @@
-Modern Office 365, SharePoint & Cloud Development Ramp-Up
-=========================================================
-> *Follow along at [github.com / andrewconnell / pres-modern-spdev-workshop](http://github.com/andrewconnell/pres-modern-spdev-workshop). This is just but one part of multiple parts that make up this workshop... [click here for all the parts that makeup this workshop](presentation.md).*
-
 Part 3: App Model-Based Development
 ===================================
 1. [Introduction to SharePoint Apps](#introduction-to-sharepoint-apps)
 1. [Developing SharePoint Apps](#developing-sharepoint-apps)
 1. [Distribution and Deployment](#distribution-and-deployment)
-
-
-
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
 
 
@@ -31,7 +23,7 @@ Why do we need apps... what's wrong with solutions?
   - Had dependencies on SharePoint DLLs
 - Permission model based on user identity
 - Hard to manage life-cycle
- 
+
 
 
 Overview of the SharePoint App Model
@@ -45,8 +37,6 @@ Overview of the SharePoint App Model
   - App Catalog (*aka: company store*)
 
 
-
-&laquo; **[back to top](#part-3-app-model-based-development)** &raquo;
 
 Developing SharePoint Apps
 ==========================
@@ -97,13 +87,21 @@ App installation scopes
 -----------------------
 - Apps can be *scoped* to a site or the whole tenant
 - To the end user, they show up & look the same
-- Site scoped
-  - Each install isolated from other installs of the same app
-  - No sharing of data across installs  
+
+
+
+###Site scoped
+- Each install isolated from other installs of the same app
+- No sharing of data across installs  
+
 ![site-scoped app install](img/scope-site.png)
-- Tenant scoped
-  - App installed in App Catalog
-  - Made available in other across tenant, specific site collections, specific sites, etc
+
+
+
+###Tenant scoped
+- App installed in App Catalog
+- Made available in other across tenant, specific site collections, specific sites, etc
+
 ![tenant-scoped app install](img/scope-tenant.png)
 
 
@@ -140,8 +138,6 @@ DEMO: Provider hosted app
 ![demo](img/demo02.gif)
 
 
-
-&laquo; **[back to top](#part-3-app-model-based-development)** &raquo;
 
 Distribution and Deployment
 ===========================
@@ -185,7 +181,3 @@ Upgrading apps
 - Think how apps work on your phones and tablets
 - Updates can never be pushed, they are only offered
 - Installed apps indicate they can be updated
-
-
-
-&laquo; **[back to top](#part-3-app-model-based-development)** &raquo;

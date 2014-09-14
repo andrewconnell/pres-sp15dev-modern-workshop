@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Modern Office 365, SharePoint &amp; Cloud Development Ramp-Up</title>
+    <meta name="author" content="Andrew Connell">
+    <link href="shared/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/night.css" id="theme">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="/lib/js/html5shiv.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="shared/styles.css">
+  </head>
+  <body>
+    <div class="reveal">
+
+      <div class="slides">
+        <section>
+          <h1>Modern Office 365, SharePoint &amp; Cloud Development Ramp-Up</h1>
+          <p><a href="http://www.github.com/andrewconnell/pres-sp15dev-modern-workshop">github.com / andrewconnell / pres-sp15dev-modern-workshop</a></p>
+        </section>
+        <section data-markdown="shared/bio.md"  
+                 data-separator="^\n\n\n"  
+                 data-vertical="^\n\n">
+        </section>
+
+        <section>
+          <section>
+            <h1>Part 1: Understanding SharePoint</h1>
+            <p>In this section we will quickly run through some terms and concepts that every SharePoint developer must be familiar with and understand. If you already know a little bit about SharePoint, you might not get much out of this, we need to level set with everyone.</p>
+          </section>
+          <section data-markdown="presentation-part1.md"  
+                   data-separator="^\n\n\n"  
+                   data-vertical="^\n\n">
+          </section>
+        </section>
+
+        <section>
+
+          <section>
+            <h1>Part 2: Solution-Based Development</h1>
+            <p>In part 2 of this workshop we are going to dive into the more traditional and, dare we say, <em>legacy</em> way of customizing &amp; extending SharePoint. By the end of this section you'll understand what features are and what's involved in building solutions, not to mention the different types of solutions: farm (aka: fully-trusted) or sandboxed (aka: partially trusted) solutions. But most importantly you will have an idea when are the best types of situations where each type of solution fits the scenario.</p>
+          </section>
+          <section data-markdown="presentation-part2.md"  
+                   data-separator="^\n\n\n"  
+                   data-vertical="^\n\n">
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>Part 3: App Model-Based Development</h1>
+            <p>Next we will move into the newest customization approach available to customers: the SharePoint App Model. This is the newest option and one Microsoft would prefer we all move to. At the conclusion of this section you'll have a good grasp on the different types of apps and when it makes the most sense to create apps.</p>
+          </section>
+          <section data-markdown="presentation-part3.md"  
+                   data-separator="^\n\n\n"  
+                   data-vertical="^\n\n">
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>Part 4: Client APIs, App Types &amp; App Security</h1>
+            <p>In the last part of this workshop we will look at the different types of development patterns available to developers. These will be a bit SharePoint App Model heavy, but some of the patterns could be applied to solution-based development as well. Finally we will touch on a very important subject, that of app identity and security.</p>
+          </section>
+          <section data-markdown="presentation-part4.md"  
+                   data-separator="^\n\n\n"  
+                   data-vertical="^\n\n">
+          </section>
+        </section>
+
+        <section>
+          <h1 id="questions-">Questions?</h1>
+          <p><img src="/shared/clapping.gif" alt="questions?"></p>
+          <p><a href="http://www.andrewconnell.com">www.andrewconnell.com</a></p>
+          <p><a href="http://www.twitter.com/andrewconnell">@andrewconnell</a></p>
+          <p><a href="http://www.github.com/andrewconnell/pres-sp15dev-modern-workshop">github.com / andrewconnell / pres-sp15dev-modern-workshop</a></p>
+        </section>
+      </div>
+
+    </div>
+
+    <script src="/lib/js/head.min.js"></script>
+    <script src="/js/reveal.min.js"></script>
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'zoom', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Parallax scrolling
+        // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+        // parallaxBackgroundSize: '2100px 900px',
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: '/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: '/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+    </script>
+  </body>
+</html>

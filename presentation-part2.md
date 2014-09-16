@@ -146,6 +146,7 @@ public class FeatureReceiver : SPFeatureReceiver {
 Solutions
 =========
 *What is a SharePoint Solution?*
+
 - Introduced in SharePoint 2007
 - SharePoint's installer framework
 - SharePoint 2010 defined two types of solutions

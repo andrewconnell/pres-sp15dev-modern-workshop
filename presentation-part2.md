@@ -146,6 +146,7 @@ public class FeatureReceiver : SPFeatureReceiver {
 Solutions
 =========
 *What is a SharePoint Solution?*
+
 - Introduced in SharePoint 2007
 - SharePoint's installer framework
 - SharePoint 2010 defined two types of solutions
@@ -198,6 +199,7 @@ Solutions can contain...
 Types of solutions
 ------------------
 The type of solution is dictated how it is **deployed**, *not* what it contains
+
 - Farm solutions / *aka: fully-trusted solutions*
 - Sandboxed solutions / *aka: partially-trusted solutions*
 

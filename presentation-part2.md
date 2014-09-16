@@ -199,6 +199,7 @@ Solutions can contain...
 Types of solutions
 ------------------
 The type of solution is dictated how it is **deployed**, *not* what it contains
+
 - Farm solutions / *aka: fully-trusted solutions*
 - Sandboxed solutions / *aka: partially-trusted solutions*
 

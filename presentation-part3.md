@@ -77,7 +77,7 @@ App terms
   - Highly isolated form all other SharePoint sites
   - Automatically created during app installation
   - Replaced during upgrade
-- RemoveWeb
+- RemoteWeb
   - External web footprint for cloud / provider hosted apps
   - Must be manually creates & managed by developer / provider of app
 

@@ -49,3 +49,5 @@ Prerequisites
   - ASP.NET MVC
   - Understanding / experience with REST services
   - Enterprise JavaScript techniques / patterns / practices
+
+[![Analytics](https://ga-beacon.appspot.com/UA-59889067-1/pres-sp15dev-modern-workshop/readme)](https://github.com/igrigorik/ga-beacon)

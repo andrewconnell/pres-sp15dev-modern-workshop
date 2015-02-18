@@ -303,3 +303,5 @@ Obtaining an access token
   - Used in the 2-legged approach
   - SSL certificates used to establish trust between app & SharePoint
   - Not available in Office 365
+
+[![Analytics](https://ga-beacon.appspot.com/UA-59889067-1/pres-sp15dev-modern-workshop/presentation-part4)](https://github.com/igrigorik/ga-beacon)

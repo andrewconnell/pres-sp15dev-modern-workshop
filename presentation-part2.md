@@ -302,3 +302,5 @@ DEMO: Sandboxed solution
 - Creating a list
 
 ![demo](img/demo05.gif)
+
+[![Analytics](https://ga-beacon.appspot.com/UA-59889067-1/pres-sp15dev-modern-workshop/presentation-part2)](https://github.com/igrigorik/ga-beacon)

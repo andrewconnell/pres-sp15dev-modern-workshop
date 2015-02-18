@@ -19,3 +19,5 @@ Next we will move into the newest customization approach available to customers:
 [Part 4: Client APIs, App Types & App Security](presentation-part4.md)
 ---------------------------------------------------------
 In the last part of this workshop we will look at the different types of development patterns available to developers. These will be a bit SharePoint App Model heavy, but some of the patterns could be applied to solution-based development as well. Finally we will touch on a very important subject, that of app identity and security.
+
+[![Analytics](https://ga-beacon.appspot.com/UA-59889067-1/pres-sp15dev-modern-workshop/presentation)](https://github.com/igrigorik/ga-beacon)

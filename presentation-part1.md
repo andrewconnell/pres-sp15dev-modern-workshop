@@ -232,3 +232,5 @@ Admin sites, IIS Web Sites, File system & Databases
 
 #Resources
 - [TechNet: Windows PowerShell cmdlets for Office 365 management and deployment](http://technet.microsoft.com/en-us/library/hh974317.aspx)
+
+[![Analytics](https://ga-beacon.appspot.com/UA-59889067-1/pres-sp15dev-modern-workshop/presentation-part1)](https://github.com/igrigorik/ga-beacon)
